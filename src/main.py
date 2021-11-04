@@ -29,10 +29,9 @@ def create_model() -> Model:
     model.compile(optimizer=optimizer,loss='binary_crossentropy', metrics=['accuracy'])
     return model
 
-
 if __name__ == '__main__':
     # read in the data into a pandas Dataframe
-    df = pd.read_csv('water_quality.csv') # df is a common variable name for a pandas Dataframe
+    df = pd.read_csv('src/water_quality.csv') # df is a common variable name for a pandas Dataframe
     # divide the data into features and labels
     # features are just another name for column headers or inputs into a neural network
     data = df.values[:,:-1]

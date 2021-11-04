@@ -17,4 +17,4 @@ def plot_net_history(history):
     axes[1].set_ylabel('loss')
     axes[1].set_xlabel('epoch')
     axes[1].legend(['train', 'validation'], loc='upper right')
-    plt.savefig(f'neural_net_accuracy_and_loss')
+    plt.savefig(f'src/neural_net_accuracy_and_loss')

@@ -10,9 +10,9 @@ Switch to python enviroment
 
 `pip install requirements.txt`
 
-Run the main program
+Run the main program from the git root
 
-`python main.py`
+`python src/main.py`
 
 ## Running with Docker
 
